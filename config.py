@@ -24,7 +24,7 @@ class AppConfig:
         
         # Field Configuration
         self.int_fields = ["Year"]
-        self.numeric_fields = ["PenaltyAmount"]  
+        self.numeric_fields = ["Penalty Amount"]  
         self.columns = ("ID","Plate Number","Driver Name","Description","Belts","Personal Injury","Property Damage",
                        "Commercial License","Commercial Vehicle","State","Vehicle Type","Year","Make","Model","Color",
                        "Charge","Penalty Amount","Contributed To Accident","Race","Gender","Driver City","Driver State",
@@ -38,3 +38,4 @@ class AppConfig:
             'light_cyan': "#DEF2F1",
             'white': "#FEFFFF"
         }
+
